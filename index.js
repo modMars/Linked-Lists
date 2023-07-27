@@ -21,6 +21,6 @@ console.log('contains 100? ', newList.contains(100)) // true
 newList.pop()
 console.log('List after pop: ', newList.toString()) // 0 -> 1 -> 30 -> 50 -> 32 -> 99 -> null
 newList.insertAt(300, 4)
-console.log('List after insert: ', newList.toString())
+console.log('List after insert: ', newList.toString()) // 0 -> 1 -> 30 -> 50 -> 300 -> 32 -> 99 -> null
 newList.removeAt(2)
-console.log('List after insert: ', newList.toString())
+console.log('List after removal: ', newList.toString()) // 0 -> 1 -> 50 -> 300 -> 32 -> 99 -> null
